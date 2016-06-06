@@ -1,0 +1,63 @@
+Recursion
+
+1. In your own words, what is Recursion?
+    Recursion is  when a function calls itself within said function.
+2. Why is it necessary to have a Base Case?
+    A base case is necessary to tell the function when to stop recursing. Else, 
+    it will continue indefinitely. 
+
+Graphs
+
+1. What is a Graph?
+    A graph is a data structure where vertices are connected via edges which can be 
+    weighted. Graphs can also be directed and contain cycles. 
+2. How is a Graph different from a Tree?
+    A graph can contain loops while a tree cannot. Also edges can be weighted in a graph.
+3. Give an example of somthing that would be good to model with a Graph.
+    Something akin to facebook. 
+
+Fill in the runtimes for the following actions for the table below:
+
+Data Structure                  Index   Search  Add-R           Add-L   Pop-L   Pop-R
+Python List (Array)             O(1)    O(n)    O(1)            O(n)    O(n)    O(1)
+Linked List                     O(n)    O(n)    O(1) w/tail     O(1)    O(1)    O(n) 
+Doubly-Linked List              O(n)    O(n)    O(1) w/tail     O(1)    O(1)    O(1) w/tail
+Queue (as Array)                X       X       O(1)            X       O(n)    X
+Queue (as LL or DLL)            X       X       O(1) w/tail     X       O(1)    X
+Stack (as Array, LL, or DLL)    X       X       O(1)            X       X       O(1)
+Deque (as DLL)                  X       X       O(1) w/tail     O(1)    O(1)    O(1)     
+
+
+
+Data Structure          Get         Add     Delete  Iterate  Memory
+Dictionary (Hash Map)   O(1)        O(1)    O(1)    O(n)     medium
+Set (Hash Map)          O(1)        O(1)    O(1)    O(n)     medium
+Binary Search Tree      O(log n)    O(n)    O(n)    O(1)     small           
+Tree                    O(n)        O(1)    O(1)    O(1)     small
+
+I started with the answers that I thought they were, but then checked them.
+The first set was pretty on, but the second set, I was off with BST and trees
+
+Sorting
+
+1. Describe in words how the Bubble Sort algorithm works.
+    Bubble sort is a sorting method that iterates over a list until the big numbers
+    bubble to the top (end of the list.)
+2. Describe in words how the Merge Sort algorithm works.
+    Merge sort works by splitting lists into 1 item lists then compares two lists at a time 
+    adding the lowest one to a new list until all items are added back sorted. Runs
+    O(n log n)
+3. Describe in words how the Quick Sort algorithm works.
+    Quick sort uses a divide and conquer style by implementing a pivot that all other
+    numbers in the list are compared to. This is all done in place. 
+
+Git Branching
+
+1. Give an instance when you would use git branching.
+    When you want to try something new, but not sure how it will work. So you branch
+    so that if it doesn't work out you don't have to delete it all out of your 
+    initial code.
+2. What is a pull request?
+    It's how you contribute code to larger projects. You work on code in your own
+    branch and then make the pull request to the owner of the repository who 
+    can then choose to merge your branch or not. 
